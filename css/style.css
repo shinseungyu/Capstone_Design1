@@ -191,6 +191,7 @@
   height: 550px;
   margin-right: 50px;
   margin-bottom: 100px;
+  cursor: pointer;
 }
 .section3 .content img{
   border-radius: 15px;
@@ -205,6 +206,63 @@
   font-size: 1.5rem;
   font-weight: 700;
 }
+/* 모달창 */
+.section3 .modal {
+  display: none; /* 기본적으로 숨김 */
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.5); /* 반투명 배경 */
+}
+.section3 .modal .sec-3-en{
+  color: #4FC3F7;
+}
+.section3 .modal-content {
+  background-color: white;
+  margin: 30px auto; 
+  border: 1px solid #888;
+  width: 1000px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+}
+.section3 .close{
+  cursor: pointer;
+}
+.section3 .modal-box{
+  width: calc(100% - 500px);
+}
+.section3 .modal-txt-box{
+  padding: 70px;
+  
+}
+.section3 .modal-img{
+  width: 500px;
+  height: 300px;
+  margin-top: 70px;
+  margin-right: 70px;
+}
+
+.section3 .modal-txt{
+  margin: 16px 0;
+}
+.section3 .dlfwjd{
+  border: 1px solid #222;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* 모달창 끝 */
 
 /* section4 */
 .section4 .container{
